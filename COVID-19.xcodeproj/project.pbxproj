@@ -145,6 +145,7 @@
 		11FFD65926BFE3B7007E85A3 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		11FFD65B26BFE75E007E85A3 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
 		11FFD65D26C037BE007E85A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		11FFD65E26C03957007E85A3 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,6 +356,7 @@
 			isa = PBXGroup;
 			children = (
 				11FFD65D26C037BE007E85A3 /* README.md */,
+				11FFD65E26C03957007E85A3 /* LICENSE.md */,
 				11F7380F268B9EDD008AC3D6 /* COVID-19 */,
 				11F73820268B9EDE008AC3D6 /* COVID-19Tests */,
 				11F7382A268B9EDE008AC3D6 /* COVID-19UITests */,
