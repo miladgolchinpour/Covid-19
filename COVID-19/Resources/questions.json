@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "question": "Is this an emergency?",
+        "submitItems": [
+            "Yes",
+            "No"
+        ],
+        "image": "staroflife.circle.fill",
+        "descriptionItems": [
+            "Severe, constant chest pain or pressure",
+            "Extreme difficulty breathing",
+            "Severe, constant lightheadedness",
+            "Serious disorientation or unresponsiveness",
+            "Blue-tinted face or lips"
+        ]
+    },
+    {
+        "id": 2,
+        "question": "How old are you?",
+        "submitItems": [
+            "Under 18",
+            "Between 18 and 64",
+            "65 or older"
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Are you tested in last 19 days?",
+        "submitItems": [
+            "Yes, my result was positive",
+            "Yes, my result was negative",
+            "No, i am not tested"
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Are you have any symptom of these?",
+        "submitItems": [
+            "Yes, i have latest one experiencing",
+            "No, anything similar them"
+        ],
+        "descriptionItems": [
+            "Fever",
+            "Cough",
+            "Significant tired",
+            "Difficulty breathing"
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Are you've physical contact with anybody in last 14 days?",
+        "submitItems": [
+            "Yes",
+            "No"
+        ]
+    }
+]

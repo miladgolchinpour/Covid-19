@@ -7,22 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		111D6482268F48FA005D5DF4 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D6481268F48FA005D5DF4 /* Info.swift */; };
+		111D6485268F4966005D5DF4 /* InfoHeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D6484268F4966005D5DF4 /* InfoHeadline.swift */; };
+		111D6487268F4B78005D5DF4 /* InfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D6486268F4B78005D5DF4 /* InfoCard.swift */; };
+		111D6489268F4E86005D5DF4 /* Covid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D6488268F4E86005D5DF4 /* Covid.swift */; };
+		111D648C268F4FC6005D5DF4 /* covidInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 111D648B268F4FC6005D5DF4 /* covidInfo.json */; };
+		111D648E268F5396005D5DF4 /* Bundle decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D648D268F5396005D5DF4 /* Bundle decodable.swift */; };
+		111D6490268F5C1D005D5DF4 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D648F268F5C1D005D5DF4 /* TrackableScrollView.swift */; };
+		111D6492268F7555005D5DF4 /* Submit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D6491268F7555005D5DF4 /* Submit.swift */; };
+		111D6495268F7EB9005D5DF4 /* SubmitTopCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D6494268F7EB9005D5DF4 /* SubmitTopCard.swift */; };
+		111D6497268FA6BB005D5DF4 /* SubmitImportantRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D6496268FA6BB005D5DF4 /* SubmitImportantRow.swift */; };
+		112570DC269257CC00EF7814 /* SubmitResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112570DB269257CC00EF7814 /* SubmitResult.swift */; };
+		112F203526905C2F00622672 /* NextQuestionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F203426905C2F00622672 /* NextQuestionButton.swift */; };
+		112F20372690612000622672 /* SubmitPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F20362690612000622672 /* SubmitPicker.swift */; };
+		112F203C2690A51300622672 /* Calling911.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F203B2690A51300622672 /* Calling911.swift */; };
+		112F203E2690A54600622672 /* Under18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F203D2690A54600622672 /* Under18.swift */; };
+		115A6B2C268BE76F00439AEB /* HomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A6B2B268BE76E00439AEB /* HomeCard.swift */; };
+		115A6B2E268BEA6400439AEB /* CountrySelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A6B2D268BEA6400439AEB /* CountrySelection.swift */; };
+		115A6B33268BEB6700439AEB /* FeelSickSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A6B32268BEB6700439AEB /* FeelSickSection.swift */; };
+		115A6B36268BF43500439AEB /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A6B35268BF43500439AEB /* AppSettings.swift */; };
+		115A6B38268BF4C000439AEB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A6B37268BF4C000439AEB /* Home.swift */; };
+		115A6B3D268BFA9A00439AEB /* PreiventionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A6B3C268BFA9A00439AEB /* PreiventionsView.swift */; };
+		115A6B3F268BFAD500439AEB /* PreiventionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A6B3E268BFAD500439AEB /* PreiventionItem.swift */; };
+		11643F58268D98280028B920 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11643F57268D98280028B920 /* Extensions.swift */; };
+		11643F5C268DA6D00028B920 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11643F5B268DA6D00028B920 /* Summary.swift */; };
+		11643F5E268DA6F20028B920 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11643F5D268DA6F20028B920 /* Country.swift */; };
+		11643F60268DA8D10028B920 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11643F5F268DA8D10028B920 /* API.swift */; };
+		11643F62268DB3DD0028B920 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11643F61268DB3DD0028B920 /* Statistics.swift */; };
+		11643F66268DC7B30028B920 /* StatisticsHeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11643F65268DC7B30028B920 /* StatisticsHeadline.swift */; };
+		11643F6A268DCEDB0028B920 /* DayPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11643F69268DCEDB0028B920 /* DayPicker.swift */; };
+		11643F6C268DDE280028B920 /* GlobalCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11643F6B268DDE280028B920 /* GlobalCountryPicker.swift */; };
+		11643F70268DEB390028B920 /* StatisticCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11643F6F268DEB390028B920 /* StatisticCardView.swift */; };
+		11643F7F268E46BE0028B920 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11643F7E268E46BE0028B920 /* NetworkMonitor.swift */; };
+		1191A74A268CF869009350A7 /* SubmitInviteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191A749268CF869009350A7 /* SubmitInviteButton.swift */; };
 		11F73811268B9EDD008AC3D6 /* COVID_19App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F73810268B9EDD008AC3D6 /* COVID_19App.swift */; };
 		11F73813268B9EDD008AC3D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F73812268B9EDD008AC3D6 /* ContentView.swift */; };
 		11F73815268B9EDE008AC3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F73814268B9EDE008AC3D6 /* Assets.xcassets */; };
 		11F73818268B9EDE008AC3D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F73817268B9EDE008AC3D6 /* Preview Assets.xcassets */; };
 		11F73822268B9EDE008AC3D6 /* COVID_19Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F73821268B9EDE008AC3D6 /* COVID_19Tests.swift */; };
 		11F7382C268B9EDE008AC3D6 /* COVID_19UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F7382B268B9EDE008AC3D6 /* COVID_19UITests.swift */; };
-		11F73830268B9EDF008AC3D6 /* COVID-19 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 11F7382F268B9EDF008AC3D6 /* COVID-19 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		11F73835268B9EDF008AC3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F73834268B9EDF008AC3D6 /* Assets.xcassets */; };
-		11F7383B268B9EDF008AC3D6 /* COVID-19 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11F7383A268B9EDF008AC3D6 /* COVID-19 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		11F73840268B9EDF008AC3D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F7383F268B9EDF008AC3D6 /* ContentView.swift */; };
-		11F73842268B9EDF008AC3D6 /* COVID_19App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F73841268B9EDF008AC3D6 /* COVID_19App.swift */; };
-		11F73844268B9EDF008AC3D6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F73843268B9EDF008AC3D6 /* ComplicationController.swift */; };
-		11F73846268B9EDF008AC3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F73845268B9EDF008AC3D6 /* Assets.xcassets */; };
-		11F73849268B9EDF008AC3D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F73848268B9EDF008AC3D6 /* Preview Assets.xcassets */; };
-		11F73854268B9EDF008AC3D6 /* COVID_19_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F73853268B9EDF008AC3D6 /* COVID_19_WatchKit_AppTests.swift */; };
-		11F7385E268B9EDF008AC3D6 /* COVID_19_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F7385D268B9EDF008AC3D6 /* COVID_19_WatchKit_AppUITests.swift */; };
+		11F73880268BD095008AC3D6 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F7387F268BD095008AC3D6 /* TabBar.swift */; };
+		11FFD64726BEC47F007E85A3 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD64626BEC47F007E85A3 /* Sidebar.swift */; };
+		11FFD64926BEC693007E85A3 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD64826BEC693007E85A3 /* Alerts.swift */; };
+		11FFD64B26BEC7A3007E85A3 /* OpacityRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD64A26BEC7A3007E85A3 /* OpacityRectangle.swift */; };
+		11FFD64D26BEE335007E85A3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD64C26BEE335007E85A3 /* Question.swift */; };
+		11FFD64F26BEE3EF007E85A3 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 11FFD64E26BEE3EF007E85A3 /* questions.json */; };
+		11FFD65226BEE75F007E85A3 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD65126BEE75F007E85A3 /* QuestionsView.swift */; };
+		11FFD65426BEED0B007E85A3 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD65326BEED0B007E85A3 /* QuestionView.swift */; };
+		11FFD65626BEF20A007E85A3 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD65526BEF20A007E85A3 /* QuestionViewModel.swift */; };
+		11FFD65A26BFE3B7007E85A3 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD65926BFE3B7007E85A3 /* StatisticsView.swift */; };
+		11FFD65C26BFE75E007E85A3 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD65B26BFE75E007E85A3 /* Statistic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,55 +74,15 @@
 			remoteGlobalIDString = 11F7380C268B9EDD008AC3D6;
 			remoteInfo = "COVID-19";
 		};
-		11F73831268B9EDF008AC3D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 11F73805268B9EDD008AC3D6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 11F7382E268B9EDF008AC3D6;
-			remoteInfo = "COVID-19 WatchKit App";
-		};
-		11F7383C268B9EDF008AC3D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 11F73805268B9EDD008AC3D6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 11F73839268B9EDF008AC3D6;
-			remoteInfo = "COVID-19 WatchKit Extension";
-		};
-		11F73850268B9EDF008AC3D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 11F73805268B9EDD008AC3D6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 11F73839268B9EDF008AC3D6;
-			remoteInfo = "COVID-19 WatchKit Extension";
-		};
-		11F7385A268B9EDF008AC3D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 11F73805268B9EDD008AC3D6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 11F7382E268B9EDF008AC3D6;
-			remoteInfo = "COVID-19 WatchKit App";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		11F73864268B9EDF008AC3D6 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				11F7383B268B9EDF008AC3D6 /* COVID-19 WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		11F73868268B9EDF008AC3D6 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				11F73830268B9EDF008AC3D6 /* COVID-19 WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +90,39 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		111D6481268F48FA005D5DF4 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		111D6484268F4966005D5DF4 /* InfoHeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoHeadline.swift; sourceTree = "<group>"; };
+		111D6486268F4B78005D5DF4 /* InfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCard.swift; sourceTree = "<group>"; };
+		111D6488268F4E86005D5DF4 /* Covid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid.swift; sourceTree = "<group>"; };
+		111D648B268F4FC6005D5DF4 /* covidInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = covidInfo.json; sourceTree = "<group>"; };
+		111D648D268F5396005D5DF4 /* Bundle decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle decodable.swift"; sourceTree = "<group>"; };
+		111D648F268F5C1D005D5DF4 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
+		111D6491268F7555005D5DF4 /* Submit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submit.swift; sourceTree = "<group>"; };
+		111D6494268F7EB9005D5DF4 /* SubmitTopCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitTopCard.swift; sourceTree = "<group>"; };
+		111D6496268FA6BB005D5DF4 /* SubmitImportantRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitImportantRow.swift; sourceTree = "<group>"; };
+		112570DB269257CC00EF7814 /* SubmitResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitResult.swift; sourceTree = "<group>"; };
+		112F203426905C2F00622672 /* NextQuestionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextQuestionButton.swift; sourceTree = "<group>"; };
+		112F20362690612000622672 /* SubmitPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitPicker.swift; sourceTree = "<group>"; };
+		112F203B2690A51300622672 /* Calling911.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calling911.swift; sourceTree = "<group>"; };
+		112F203D2690A54600622672 /* Under18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Under18.swift; sourceTree = "<group>"; };
+		115A6B2B268BE76E00439AEB /* HomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCard.swift; sourceTree = "<group>"; };
+		115A6B2D268BEA6400439AEB /* CountrySelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelection.swift; sourceTree = "<group>"; };
+		115A6B32268BEB6700439AEB /* FeelSickSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelSickSection.swift; sourceTree = "<group>"; };
+		115A6B35268BF43500439AEB /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		115A6B37268BF4C000439AEB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		115A6B3C268BFA9A00439AEB /* PreiventionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreiventionsView.swift; sourceTree = "<group>"; };
+		115A6B3E268BFAD500439AEB /* PreiventionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreiventionItem.swift; sourceTree = "<group>"; };
+		11643F57268D98280028B920 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		11643F5B268DA6D00028B920 /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		11643F5D268DA6F20028B920 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		11643F5F268DA8D10028B920 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		11643F61268DB3DD0028B920 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		11643F65268DC7B30028B920 /* StatisticsHeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsHeadline.swift; sourceTree = "<group>"; };
+		11643F69268DCEDB0028B920 /* DayPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPicker.swift; sourceTree = "<group>"; };
+		11643F6B268DDE280028B920 /* GlobalCountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalCountryPicker.swift; sourceTree = "<group>"; };
+		11643F6F268DEB390028B920 /* StatisticCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticCardView.swift; sourceTree = "<group>"; };
+		11643F7E268E46BE0028B920 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		1191A749268CF869009350A7 /* SubmitInviteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitInviteButton.swift; sourceTree = "<group>"; };
 		11F7380D268B9EDD008AC3D6 /* COVID-19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F73810268B9EDD008AC3D6 /* COVID_19App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_19App.swift; sourceTree = "<group>"; };
 		11F73812268B9EDD008AC3D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,19 +132,19 @@
 		11F73821268B9EDE008AC3D6 /* COVID_19Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_19Tests.swift; sourceTree = "<group>"; };
 		11F73827268B9EDE008AC3D6 /* COVID-19UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVID-19UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F7382B268B9EDE008AC3D6 /* COVID_19UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_19UITests.swift; sourceTree = "<group>"; };
-		11F7382F268B9EDF008AC3D6 /* COVID-19 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11F73834268B9EDF008AC3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11F7383A268B9EDF008AC3D6 /* COVID-19 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "COVID-19 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11F7383F268B9EDF008AC3D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		11F73841268B9EDF008AC3D6 /* COVID_19App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_19App.swift; sourceTree = "<group>"; };
-		11F73843268B9EDF008AC3D6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		11F73845268B9EDF008AC3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11F73848268B9EDF008AC3D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		11F7384A268B9EDF008AC3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11F7384F268B9EDF008AC3D6 /* COVID-19 WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVID-19 WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11F73853268B9EDF008AC3D6 /* COVID_19_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_19_WatchKit_AppTests.swift; sourceTree = "<group>"; };
-		11F73859268B9EDF008AC3D6 /* COVID-19 WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVID-19 WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11F7385D268B9EDF008AC3D6 /* COVID_19_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_19_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		11F73878268B9F58008AC3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Application/Info.plist; sourceTree = "<group>"; };
+		11F7387F268BD095008AC3D6 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		11FFD64626BEC47F007E85A3 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		11FFD64826BEC693007E85A3 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		11FFD64A26BEC7A3007E85A3 /* OpacityRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityRectangle.swift; sourceTree = "<group>"; };
+		11FFD64C26BEE335007E85A3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		11FFD64E26BEE3EF007E85A3 /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		11FFD65126BEE75F007E85A3 /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		11FFD65326BEED0B007E85A3 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		11FFD65526BEF20A007E85A3 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		11FFD65926BFE3B7007E85A3 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		11FFD65B26BFE75E007E85A3 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		11FFD65D26C037BE007E85A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,40 +169,195 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11F73837268B9EDF008AC3D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11F7384C268B9EDF008AC3D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11F73856268B9EDF008AC3D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		111D6483268F4954005D5DF4 /* Info views */ = {
+			isa = PBXGroup;
+			children = (
+				111D6484268F4966005D5DF4 /* InfoHeadline.swift */,
+				111D6486268F4B78005D5DF4 /* InfoCard.swift */,
+			);
+			path = "Info views";
+			sourceTree = "<group>";
+		};
+		111D648A268F4FA1005D5DF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11F73814268B9EDE008AC3D6 /* Assets.xcassets */,
+				111D648B268F4FC6005D5DF4 /* covidInfo.json */,
+				11FFD64E26BEE3EF007E85A3 /* questions.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		111D6493268F7E1E005D5DF4 /* Submit views */ = {
+			isa = PBXGroup;
+			children = (
+				112F203026905B3700622672 /* Main views */,
+				112F203126905B4C00622672 /* Checking */,
+				112F20382690A03C00622672 /* Result */,
+			);
+			path = "Submit views";
+			sourceTree = "<group>";
+		};
+		112F203026905B3700622672 /* Main views */ = {
+			isa = PBXGroup;
+			children = (
+				111D6494268F7EB9005D5DF4 /* SubmitTopCard.swift */,
+				111D6496268FA6BB005D5DF4 /* SubmitImportantRow.swift */,
+			);
+			path = "Main views";
+			sourceTree = "<group>";
+		};
+		112F203126905B4C00622672 /* Checking */ = {
+			isa = PBXGroup;
+			children = (
+				11FFD65126BEE75F007E85A3 /* QuestionsView.swift */,
+				11FFD65326BEED0B007E85A3 /* QuestionView.swift */,
+				112F203426905C2F00622672 /* NextQuestionButton.swift */,
+				112F20362690612000622672 /* SubmitPicker.swift */,
+			);
+			path = Checking;
+			sourceTree = "<group>";
+		};
+		112F20382690A03C00622672 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				112F203B2690A51300622672 /* Calling911.swift */,
+				112F203D2690A54600622672 /* Under18.swift */,
+				112570DB269257CC00EF7814 /* SubmitResult.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		115A6B2F268BEB2700439AEB /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				115A6B37268BF4C000439AEB /* Home.swift */,
+				11643F61268DB3DD0028B920 /* Statistics.swift */,
+				111D6491268F7555005D5DF4 /* Submit.swift */,
+				111D6481268F48FA005D5DF4 /* Info.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		115A6B30268BEB3700439AEB /* Home Card */ = {
+			isa = PBXGroup;
+			children = (
+				115A6B2B268BE76E00439AEB /* HomeCard.swift */,
+				115A6B2D268BEA6400439AEB /* CountrySelection.swift */,
+				115A6B32268BEB6700439AEB /* FeelSickSection.swift */,
+			);
+			path = "Home Card";
+			sourceTree = "<group>";
+		};
+		115A6B34268BF3FC00439AEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11643F63268DC4C50028B920 /* Home views */,
+				11643F64268DC4D00028B920 /* Statistics views */,
+				111D6493268F7E1E005D5DF4 /* Submit views */,
+				111D6483268F4954005D5DF4 /* Info views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		115A6B3B268BFA7900439AEB /* Prevention */ = {
+			isa = PBXGroup;
+			children = (
+				115A6B3C268BFA9A00439AEB /* PreiventionsView.swift */,
+				115A6B3E268BFAD500439AEB /* PreiventionItem.swift */,
+			);
+			path = Prevention;
+			sourceTree = "<group>";
+		};
+		11643F59268DA61C0028B920 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11643F5B268DA6D00028B920 /* Summary.swift */,
+				11643F5D268DA6F20028B920 /* Country.swift */,
+				111D6488268F4E86005D5DF4 /* Covid.swift */,
+				11FFD64C26BEE335007E85A3 /* Question.swift */,
+				11FFD65B26BFE75E007E85A3 /* Statistic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11643F63268DC4C50028B920 /* Home views */ = {
+			isa = PBXGroup;
+			children = (
+				115A6B30268BEB3700439AEB /* Home Card */,
+				115A6B3B268BFA7900439AEB /* Prevention */,
+				1191A748268CF838009350A7 /* Submit data */,
+			);
+			path = "Home views";
+			sourceTree = "<group>";
+		};
+		11643F64268DC4D00028B920 /* Statistics views */ = {
+			isa = PBXGroup;
+			children = (
+				11643F72268E1AE70028B920 /* Grid view */,
+				11643F71268E1AD90028B920 /* Pickers */,
+				11643F73268E1AFF0028B920 /* Sections */,
+			);
+			path = "Statistics views";
+			sourceTree = "<group>";
+		};
+		11643F71268E1AD90028B920 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				11643F69268DCEDB0028B920 /* DayPicker.swift */,
+				11643F6B268DDE280028B920 /* GlobalCountryPicker.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		11643F72268E1AE70028B920 /* Grid view */ = {
+			isa = PBXGroup;
+			children = (
+				11643F6F268DEB390028B920 /* StatisticCardView.swift */,
+				11FFD65926BFE3B7007E85A3 /* StatisticsView.swift */,
+			);
+			path = "Grid view";
+			sourceTree = "<group>";
+		};
+		11643F73268E1AFF0028B920 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				11643F65268DC7B30028B920 /* StatisticsHeadline.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		11643F7D268E46AD0028B920 /* Utilitis */ = {
+			isa = PBXGroup;
+			children = (
+				11643F57268D98280028B920 /* Extensions.swift */,
+				11643F7E268E46BE0028B920 /* NetworkMonitor.swift */,
+				111D648F268F5C1D005D5DF4 /* TrackableScrollView.swift */,
+				11FFD64826BEC693007E85A3 /* Alerts.swift */,
+				111D648D268F5396005D5DF4 /* Bundle decodable.swift */,
+				11FFD64A26BEC7A3007E85A3 /* OpacityRectangle.swift */,
+			);
+			path = Utilitis;
+			sourceTree = "<group>";
+		};
+		1191A748268CF838009350A7 /* Submit data */ = {
+			isa = PBXGroup;
+			children = (
+				1191A749268CF869009350A7 /* SubmitInviteButton.swift */,
+			);
+			path = "Submit data";
+			sourceTree = "<group>";
+		};
 		11F73804268B9EDD008AC3D6 = {
 			isa = PBXGroup;
 			children = (
+				11FFD65D26C037BE007E85A3 /* README.md */,
 				11F7380F268B9EDD008AC3D6 /* COVID-19 */,
 				11F73820268B9EDE008AC3D6 /* COVID-19Tests */,
 				11F7382A268B9EDE008AC3D6 /* COVID-19UITests */,
-				11F73833268B9EDF008AC3D6 /* COVID-19 WatchKit App */,
-				11F7383E268B9EDF008AC3D6 /* COVID-19 WatchKit Extension */,
-				11F73852268B9EDF008AC3D6 /* COVID-19 WatchKit AppTests */,
-				11F7385C268B9EDF008AC3D6 /* COVID-19 WatchKit AppUITests */,
 				11F7380E268B9EDD008AC3D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -186,10 +368,6 @@
 				11F7380D268B9EDD008AC3D6 /* COVID-19.app */,
 				11F7381D268B9EDE008AC3D6 /* COVID-19Tests.xctest */,
 				11F73827268B9EDE008AC3D6 /* COVID-19UITests.xctest */,
-				11F7382F268B9EDF008AC3D6 /* COVID-19 WatchKit App.app */,
-				11F7383A268B9EDF008AC3D6 /* COVID-19 WatchKit Extension.appex */,
-				11F7384F268B9EDF008AC3D6 /* COVID-19 WatchKit AppTests.xctest */,
-				11F73859268B9EDF008AC3D6 /* COVID-19 WatchKit AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,9 +375,15 @@
 		11F7380F268B9EDD008AC3D6 /* COVID-19 */ = {
 			isa = PBXGroup;
 			children = (
-				11F73810268B9EDD008AC3D6 /* COVID_19App.swift */,
-				11F73812268B9EDD008AC3D6 /* ContentView.swift */,
-				11F73814268B9EDE008AC3D6 /* Assets.xcassets */,
+				11F73878268B9F58008AC3D6 /* Info.plist */,
+				11F73879268B9F67008AC3D6 /* Application */,
+				11FFD64526BEC40E007E85A3 /* View Models */,
+				111D648A268F4FA1005D5DF4 /* Resources */,
+				11F7387E268BD080008AC3D6 /* Navigation */,
+				11643F59268DA61C0028B920 /* Models */,
+				11643F7D268E46AD0028B920 /* Utilitis */,
+				115A6B34268BF3FC00439AEB /* Views */,
+				115A6B2F268BEB2700439AEB /* Sections */,
 				11F73816268B9EDE008AC3D6 /* Preview Content */,
 			);
 			path = "COVID-19";
@@ -229,49 +413,32 @@
 			path = "COVID-19UITests";
 			sourceTree = "<group>";
 		};
-		11F73833268B9EDF008AC3D6 /* COVID-19 WatchKit App */ = {
+		11F73879268B9F67008AC3D6 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				11F73834268B9EDF008AC3D6 /* Assets.xcassets */,
+				11F73810268B9EDD008AC3D6 /* COVID_19App.swift */,
+				115A6B35268BF43500439AEB /* AppSettings.swift */,
 			);
-			path = "COVID-19 WatchKit App";
+			path = Application;
 			sourceTree = "<group>";
 		};
-		11F7383E268B9EDF008AC3D6 /* COVID-19 WatchKit Extension */ = {
+		11F7387E268BD080008AC3D6 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				11F7383F268B9EDF008AC3D6 /* ContentView.swift */,
-				11F73841268B9EDF008AC3D6 /* COVID_19App.swift */,
-				11F73843268B9EDF008AC3D6 /* ComplicationController.swift */,
-				11F73845268B9EDF008AC3D6 /* Assets.xcassets */,
-				11F7384A268B9EDF008AC3D6 /* Info.plist */,
-				11F73847268B9EDF008AC3D6 /* Preview Content */,
+				11F73812268B9EDD008AC3D6 /* ContentView.swift */,
+				11F7387F268BD095008AC3D6 /* TabBar.swift */,
+				11FFD64626BEC47F007E85A3 /* Sidebar.swift */,
 			);
-			path = "COVID-19 WatchKit Extension";
+			path = Navigation;
 			sourceTree = "<group>";
 		};
-		11F73847268B9EDF008AC3D6 /* Preview Content */ = {
+		11FFD64526BEC40E007E85A3 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
-				11F73848268B9EDF008AC3D6 /* Preview Assets.xcassets */,
+				11643F5F268DA8D10028B920 /* API.swift */,
+				11FFD65526BEF20A007E85A3 /* QuestionViewModel.swift */,
 			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		11F73852268B9EDF008AC3D6 /* COVID-19 WatchKit AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				11F73853268B9EDF008AC3D6 /* COVID_19_WatchKit_AppTests.swift */,
-			);
-			path = "COVID-19 WatchKit AppTests";
-			sourceTree = "<group>";
-		};
-		11F7385C268B9EDF008AC3D6 /* COVID-19 WatchKit AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				11F7385D268B9EDF008AC3D6 /* COVID_19_WatchKit_AppUITests.swift */,
-			);
-			path = "COVID-19 WatchKit AppUITests";
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +456,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				11F73832268B9EDF008AC3D6 /* PBXTargetDependency */,
 			);
 			name = "COVID-19";
 			productName = "COVID-19";
@@ -332,76 +498,6 @@
 			productReference = 11F73827268B9EDE008AC3D6 /* COVID-19UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		11F7382E268B9EDF008AC3D6 /* COVID-19 WatchKit App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 11F73865268B9EDF008AC3D6 /* Build configuration list for PBXNativeTarget "COVID-19 WatchKit App" */;
-			buildPhases = (
-				11F7382D268B9EDF008AC3D6 /* Resources */,
-				11F73864268B9EDF008AC3D6 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				11F7383D268B9EDF008AC3D6 /* PBXTargetDependency */,
-			);
-			name = "COVID-19 WatchKit App";
-			productName = "COVID-19 WatchKit App";
-			productReference = 11F7382F268B9EDF008AC3D6 /* COVID-19 WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		11F73839268B9EDF008AC3D6 /* COVID-19 WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 11F73861268B9EDF008AC3D6 /* Build configuration list for PBXNativeTarget "COVID-19 WatchKit Extension" */;
-			buildPhases = (
-				11F73836268B9EDF008AC3D6 /* Sources */,
-				11F73837268B9EDF008AC3D6 /* Frameworks */,
-				11F73838268B9EDF008AC3D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "COVID-19 WatchKit Extension";
-			productName = "COVID-19 WatchKit Extension";
-			productReference = 11F7383A268B9EDF008AC3D6 /* COVID-19 WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
-		11F7384E268B9EDF008AC3D6 /* COVID-19 WatchKit AppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 11F73872268B9EDF008AC3D6 /* Build configuration list for PBXNativeTarget "COVID-19 WatchKit AppTests" */;
-			buildPhases = (
-				11F7384B268B9EDF008AC3D6 /* Sources */,
-				11F7384C268B9EDF008AC3D6 /* Frameworks */,
-				11F7384D268B9EDF008AC3D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				11F73851268B9EDF008AC3D6 /* PBXTargetDependency */,
-			);
-			name = "COVID-19 WatchKit AppTests";
-			productName = "COVID-19 WatchKit AppTests";
-			productReference = 11F7384F268B9EDF008AC3D6 /* COVID-19 WatchKit AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		11F73858268B9EDF008AC3D6 /* COVID-19 WatchKit AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 11F73875268B9EDF008AC3D6 /* Build configuration list for PBXNativeTarget "COVID-19 WatchKit AppUITests" */;
-			buildPhases = (
-				11F73855268B9EDF008AC3D6 /* Sources */,
-				11F73856268B9EDF008AC3D6 /* Frameworks */,
-				11F73857268B9EDF008AC3D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				11F7385B268B9EDF008AC3D6 /* PBXTargetDependency */,
-			);
-			name = "COVID-19 WatchKit AppUITests";
-			productName = "COVID-19 WatchKit AppUITests";
-			productReference = 11F73859268B9EDF008AC3D6 /* COVID-19 WatchKit AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -411,6 +507,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "Milad Golchinpour";
 				TargetAttributes = {
 					11F7380C268B9EDD008AC3D6 = {
 						CreatedOnToolsVersion = 13.0;
@@ -422,20 +519,6 @@
 					11F73826268B9EDE008AC3D6 = {
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 11F7380C268B9EDD008AC3D6;
-					};
-					11F7382E268B9EDF008AC3D6 = {
-						CreatedOnToolsVersion = 13.0;
-					};
-					11F73839268B9EDF008AC3D6 = {
-						CreatedOnToolsVersion = 13.0;
-					};
-					11F7384E268B9EDF008AC3D6 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 11F73839268B9EDF008AC3D6;
-					};
-					11F73858268B9EDF008AC3D6 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 11F7382E268B9EDF008AC3D6;
 					};
 				};
 			};
@@ -455,10 +538,6 @@
 				11F7380C268B9EDD008AC3D6 /* COVID-19 */,
 				11F7381C268B9EDE008AC3D6 /* COVID-19Tests */,
 				11F73826268B9EDE008AC3D6 /* COVID-19UITests */,
-				11F7382E268B9EDF008AC3D6 /* COVID-19 WatchKit App */,
-				11F73839268B9EDF008AC3D6 /* COVID-19 WatchKit Extension */,
-				11F7384E268B9EDF008AC3D6 /* COVID-19 WatchKit AppTests */,
-				11F73858268B9EDF008AC3D6 /* COVID-19 WatchKit AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -469,7 +548,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F73818268B9EDE008AC3D6 /* Preview Assets.xcassets in Resources */,
+				11FFD64F26BEE3EF007E85A3 /* questions.json in Resources */,
 				11F73815268B9EDE008AC3D6 /* Assets.xcassets in Resources */,
+				111D648C268F4FC6005D5DF4 /* covidInfo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,37 +568,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11F7382D268B9EDF008AC3D6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11F73835268B9EDF008AC3D6 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11F73838268B9EDF008AC3D6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11F73849268B9EDF008AC3D6 /* Preview Assets.xcassets in Resources */,
-				11F73846268B9EDF008AC3D6 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11F7384D268B9EDF008AC3D6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11F73857268B9EDF008AC3D6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -525,8 +575,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F73880268BD095008AC3D6 /* TabBar.swift in Sources */,
+				111D6489268F4E86005D5DF4 /* Covid.swift in Sources */,
+				115A6B3D268BFA9A00439AEB /* PreiventionsView.swift in Sources */,
 				11F73813268B9EDD008AC3D6 /* ContentView.swift in Sources */,
+				111D6497268FA6BB005D5DF4 /* SubmitImportantRow.swift in Sources */,
+				111D6495268F7EB9005D5DF4 /* SubmitTopCard.swift in Sources */,
+				11643F66268DC7B30028B920 /* StatisticsHeadline.swift in Sources */,
+				115A6B36268BF43500439AEB /* AppSettings.swift in Sources */,
+				11643F6A268DCEDB0028B920 /* DayPicker.swift in Sources */,
+				112570DC269257CC00EF7814 /* SubmitResult.swift in Sources */,
+				115A6B2E268BEA6400439AEB /* CountrySelection.swift in Sources */,
+				111D6485268F4966005D5DF4 /* InfoHeadline.swift in Sources */,
+				11FFD65A26BFE3B7007E85A3 /* StatisticsView.swift in Sources */,
+				111D6490268F5C1D005D5DF4 /* TrackableScrollView.swift in Sources */,
+				11643F5C268DA6D00028B920 /* Summary.swift in Sources */,
+				11643F7F268E46BE0028B920 /* NetworkMonitor.swift in Sources */,
+				11FFD64D26BEE335007E85A3 /* Question.swift in Sources */,
+				11643F62268DB3DD0028B920 /* Statistics.swift in Sources */,
+				111D6482268F48FA005D5DF4 /* Info.swift in Sources */,
+				111D6487268F4B78005D5DF4 /* InfoCard.swift in Sources */,
 				11F73811268B9EDD008AC3D6 /* COVID_19App.swift in Sources */,
+				11FFD65426BEED0B007E85A3 /* QuestionView.swift in Sources */,
+				115A6B33268BEB6700439AEB /* FeelSickSection.swift in Sources */,
+				11643F6C268DDE280028B920 /* GlobalCountryPicker.swift in Sources */,
+				11643F5E268DA6F20028B920 /* Country.swift in Sources */,
+				112F203526905C2F00622672 /* NextQuestionButton.swift in Sources */,
+				11643F60268DA8D10028B920 /* API.swift in Sources */,
+				11FFD65626BEF20A007E85A3 /* QuestionViewModel.swift in Sources */,
+				111D6492268F7555005D5DF4 /* Submit.swift in Sources */,
+				11FFD64B26BEC7A3007E85A3 /* OpacityRectangle.swift in Sources */,
+				115A6B38268BF4C000439AEB /* Home.swift in Sources */,
+				11FFD64926BEC693007E85A3 /* Alerts.swift in Sources */,
+				112F203C2690A51300622672 /* Calling911.swift in Sources */,
+				11643F70268DEB390028B920 /* StatisticCardView.swift in Sources */,
+				115A6B3F268BFAD500439AEB /* PreiventionItem.swift in Sources */,
+				11FFD65226BEE75F007E85A3 /* QuestionsView.swift in Sources */,
+				112F203E2690A54600622672 /* Under18.swift in Sources */,
+				112F20372690612000622672 /* SubmitPicker.swift in Sources */,
+				11FFD65C26BFE75E007E85A3 /* Statistic.swift in Sources */,
+				115A6B2C268BE76F00439AEB /* HomeCard.swift in Sources */,
+				1191A74A268CF869009350A7 /* SubmitInviteButton.swift in Sources */,
+				111D648E268F5396005D5DF4 /* Bundle decodable.swift in Sources */,
+				11FFD64726BEC47F007E85A3 /* Sidebar.swift in Sources */,
+				11643F58268D98280028B920 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,32 +638,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11F73836268B9EDF008AC3D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11F73840268B9EDF008AC3D6 /* ContentView.swift in Sources */,
-				11F73842268B9EDF008AC3D6 /* COVID_19App.swift in Sources */,
-				11F73844268B9EDF008AC3D6 /* ComplicationController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11F7384B268B9EDF008AC3D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11F73854268B9EDF008AC3D6 /* COVID_19_WatchKit_AppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11F73855268B9EDF008AC3D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11F7385E268B9EDF008AC3D6 /* COVID_19_WatchKit_AppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -584,26 +650,6 @@
 			isa = PBXTargetDependency;
 			target = 11F7380C268B9EDD008AC3D6 /* COVID-19 */;
 			targetProxy = 11F73828268B9EDE008AC3D6 /* PBXContainerItemProxy */;
-		};
-		11F73832268B9EDF008AC3D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 11F7382E268B9EDF008AC3D6 /* COVID-19 WatchKit App */;
-			targetProxy = 11F73831268B9EDF008AC3D6 /* PBXContainerItemProxy */;
-		};
-		11F7383D268B9EDF008AC3D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 11F73839268B9EDF008AC3D6 /* COVID-19 WatchKit Extension */;
-			targetProxy = 11F7383C268B9EDF008AC3D6 /* PBXContainerItemProxy */;
-		};
-		11F73851268B9EDF008AC3D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 11F73839268B9EDF008AC3D6 /* COVID-19 WatchKit Extension */;
-			targetProxy = 11F73850268B9EDF008AC3D6 /* PBXContainerItemProxy */;
-		};
-		11F7385B268B9EDF008AC3D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 11F7382E268B9EDF008AC3D6 /* COVID-19 WatchKit App */;
-			targetProxy = 11F7385A268B9EDF008AC3D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -719,138 +765,27 @@
 			};
 			name = Release;
 		};
-		11F73862268B9EDF008AC3D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"COVID-19 WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = MU6UUBB23P;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "COVID-19 WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "COVID-19 WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miladsoftware.COVID-19.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
-		11F73863268B9EDF008AC3D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"COVID-19 WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = MU6UUBB23P;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "COVID-19 WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "COVID-19 WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miladsoftware.COVID-19.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
-		11F73866268B9EDF008AC3D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MU6UUBB23P;
-				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = COVID_19_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "COVID-19 WatchKit App";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.miladsoftware.COVID-19";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miladsoftware.COVID-19.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
-		11F73867268B9EDF008AC3D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MU6UUBB23P;
-				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = COVID_19_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "COVID-19 WatchKit App";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.miladsoftware.COVID-19";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miladsoftware.COVID-19.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
 		11F7386A268B9EDF008AC3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 126;
 				DEVELOPMENT_ASSET_PATHS = "\"COVID-19/Preview Content\"";
 				DEVELOPMENT_TEAM = MU6UUBB23P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "COVID-19/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "COVID-19";
+				INFOPLIST_KEY_CFBundleExecutable = "COVID-19";
+				INFOPLIST_KEY_CFBundleName = "COVID-19";
+				INFOPLIST_KEY_CFBundleVersion = 36;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -858,9 +793,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miladsoftware.COVID-19";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -873,15 +809,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 126;
 				DEVELOPMENT_ASSET_PATHS = "\"COVID-19/Preview Content\"";
 				DEVELOPMENT_TEAM = MU6UUBB23P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "COVID-19/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "COVID-19";
+				INFOPLIST_KEY_CFBundleExecutable = "COVID-19";
+				INFOPLIST_KEY_CFBundleName = "COVID-19";
+				INFOPLIST_KEY_CFBundleVersion = 36;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -889,9 +832,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miladsoftware.COVID-19";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1004,108 +948,6 @@
 			};
 			name = Release;
 		};
-		11F73873268B9EDF008AC3D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MU6UUBB23P;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miladsoftware.COVID-19-WatchKit-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COVID-19 WatchKit Extension.appex/COVID-19 WatchKit Extension";
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
-		11F73874268B9EDF008AC3D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MU6UUBB23P;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miladsoftware.COVID-19-WatchKit-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COVID-19 WatchKit Extension.appex/COVID-19 WatchKit Extension";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
-		11F73876268B9EDF008AC3D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MU6UUBB23P;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miladsoftware.COVID-19-WatchKit-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "COVID-19 WatchKit App";
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
-		11F73877268B9EDF008AC3D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MU6UUBB23P;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miladsoftware.COVID-19-WatchKit-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "COVID-19 WatchKit App";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1114,24 +956,6 @@
 			buildConfigurations = (
 				11F7385F268B9EDF008AC3D6 /* Debug */,
 				11F73860268B9EDF008AC3D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		11F73861268B9EDF008AC3D6 /* Build configuration list for PBXNativeTarget "COVID-19 WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11F73862268B9EDF008AC3D6 /* Debug */,
-				11F73863268B9EDF008AC3D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		11F73865268B9EDF008AC3D6 /* Build configuration list for PBXNativeTarget "COVID-19 WatchKit App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11F73866268B9EDF008AC3D6 /* Debug */,
-				11F73867268B9EDF008AC3D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1159,24 +983,6 @@
 			buildConfigurations = (
 				11F73870268B9EDF008AC3D6 /* Debug */,
 				11F73871268B9EDF008AC3D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		11F73872268B9EDF008AC3D6 /* Build configuration list for PBXNativeTarget "COVID-19 WatchKit AppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11F73873268B9EDF008AC3D6 /* Debug */,
-				11F73874268B9EDF008AC3D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		11F73875268B9EDF008AC3D6 /* Build configuration list for PBXNativeTarget "COVID-19 WatchKit AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11F73876268B9EDF008AC3D6 /* Debug */,
-				11F73877268B9EDF008AC3D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

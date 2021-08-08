@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "pills.fill",
+        "title": "What is COVID-19?",
+        "description": "COVID-19 is a respirator disease caused by coronavirus that can be spread from person to person."
+    },
+    {
+        "id": 2,
+        "image": "waveform.path.ecg",
+        "title": "What are COVID-19's symptoms?",
+        "description": "The most common symptoms are very similar to other viruses: fever, cough, and difficulty breathing."
+    },
+    {
+        "id": 3,
+        "image": "person.2.fill",
+        "title": "Who is at high risk for COVID-19?",
+        "description": "Everyone is at risk of getting COVID-19, but some people are at a higher risk of serious illness."
+    },
+    {
+        "id": 4,
+        "image": "person.2.crop.square.stack.fill",
+        "title": "What about COVID-19, pregnancy, and newborns?",
+        "description": "At this time, pregnant women reportedly have the same COVID-19 risk as adults who are not pregnant. There is also no clear evidence that a fetus can be infected with COVID-19 in the womb."
+    },
+    {
+        "id": 5,
+        "image": "staroflife.fill",
+        "title": "When should I see a doctor?",
+        "description": "Knowing when to see a doctor can keep medical care available for those who need it most."
+    }
+]
