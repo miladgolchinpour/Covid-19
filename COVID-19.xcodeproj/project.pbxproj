@@ -57,6 +57,7 @@
 		11FFD65626BEF20A007E85A3 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD65526BEF20A007E85A3 /* QuestionViewModel.swift */; };
 		11FFD65A26BFE3B7007E85A3 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD65926BFE3B7007E85A3 /* StatisticsView.swift */; };
 		11FFD65C26BFE75E007E85A3 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD65B26BFE75E007E85A3 /* Statistic.swift */; };
+		11FFD66226C0BE5C007E85A3 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FFD66126C0BE5C007E85A3 /* CreditsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +147,7 @@
 		11FFD65B26BFE75E007E85A3 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
 		11FFD65D26C037BE007E85A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11FFD65E26C03957007E85A3 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		11FFD66126C0BE5C007E85A3 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +251,7 @@
 				115A6B2B268BE76E00439AEB /* HomeCard.swift */,
 				115A6B2D268BEA6400439AEB /* CountrySelection.swift */,
 				115A6B32268BEB6700439AEB /* FeelSickSection.swift */,
+				11FFD66126C0BE5C007E85A3 /* CreditsView.swift */,
 			);
 			path = "Home Card";
 			sourceTree = "<group>";
@@ -610,6 +613,7 @@
 				115A6B38268BF4C000439AEB /* Home.swift in Sources */,
 				11FFD64926BEC693007E85A3 /* Alerts.swift in Sources */,
 				112F203C2690A51300622672 /* Calling911.swift in Sources */,
+				11FFD66226C0BE5C007E85A3 /* CreditsView.swift in Sources */,
 				11643F70268DEB390028B920 /* StatisticCardView.swift in Sources */,
 				115A6B3F268BFAD500439AEB /* PreiventionItem.swift in Sources */,
 				11FFD65226BEE75F007E85A3 /* QuestionsView.swift in Sources */,

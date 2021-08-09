@@ -10,13 +10,20 @@ import SwiftUI
 
 /// Home Top Card included app headline and call to 911 button
 struct HomeCard: View {
+    @State private var showingCredits = false
+    
     var body: some View {
         VStack(spacing: 30) {
             HStack {
                 Spacer()
-                Image(systemName: "checkmark.shield")
-                    .font(.system(size: 25, weight: .semibold, design: .rounded))
-                    .foregroundColor(.white)
+                Button {
+                    showingCredits.toggle()
+                } label: {
+                    Image(systemName: "checkmark.shield")
+                        .font(.system(size: 25, weight: .semibold, design: .rounded))
+                        .foregroundColor(.white)
+                }
+                .buttonStyle(.plain)
             }
             .padding(.top, UIApplication.shared.windows[0].safeAreaInsets.top+40)
             
@@ -34,6 +41,9 @@ struct HomeCard: View {
         .padding(30)
         .background(RoundedRectangle(cornerRadius: 40, style: .continuous).fill(.indigo))
         .frame(maxWidth: .infinity, maxHeight: 500)
+        .fullScreenCover(isPresented: $showingCredits) {
+            CreditsView(showing: $showingCredits)
+        }
     }
 }
 
