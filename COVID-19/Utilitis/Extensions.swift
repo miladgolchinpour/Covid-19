@@ -37,9 +37,10 @@ extension URLSession {
     }
 }
 // MARK: - New blue rounded button text style
-extension View {
-    func roundedButtonStyle() -> some View {
-        self.font(.headline)
+struct RoundedButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .font(.headline)
             .foregroundColor(.white)
             .frame(minHeight: 50)
             .frame(maxWidth: .infinity, maxHeight: 50)

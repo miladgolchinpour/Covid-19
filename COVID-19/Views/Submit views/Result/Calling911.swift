@@ -41,8 +41,8 @@ struct Calling911: View {
                     .padding()
                     .foregroundColor(.white)
                     .font(.title3)
-                    .roundedButtonStyle()
                 }
+                .buttonStyle(RoundedButtonStyle())
             }
             .padding(.top, UIApplication.shared.windows[0].safeAreaInsets.top+30)
         }

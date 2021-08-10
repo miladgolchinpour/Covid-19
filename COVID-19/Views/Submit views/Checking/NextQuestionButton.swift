@@ -20,7 +20,7 @@ struct NextQuestionButton: View {
     }
     
     var body: some View {
-        Button {
+        Button(pageWithCloseButton ? "Close" : "Next") {
             withAnimation {
                 if questionViewModel.questionIndex == questionViewModel.questions.endIndex-1 {
                     questionViewModel.showResultView = true
@@ -37,10 +37,8 @@ struct NextQuestionButton: View {
                     }
                 }
             }
-        } label: {
-            Text(pageWithCloseButton ? "Close" : "Next")
-                .roundedButtonStyle()
         }
+        .buttonStyle(RoundedButtonStyle())
         .disabled(!correctAnswer)
         .opacity(correctAnswer ? 1 : 0.5)
         .background(.bar)
