@@ -20,7 +20,7 @@ struct SubmitTopCard: View {
                 .font(.system(.largeTitle, design: .rounded))
                 .fontWeight(.semibold)
                 .multilineTextAlignment(.center)
-                .padding(.top, UIApplication.shared.windows[0].safeAreaInsets.top+50)
+                .padding(.top, getSafeAreaTop() + 50)
             
             Text("We ask some easy questions\nfor check your status.")
                 .multilineTextAlignment(.center)

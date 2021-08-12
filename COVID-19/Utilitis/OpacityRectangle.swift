@@ -17,10 +17,10 @@ struct OpacityRectangle: View {
         if hSizeClass == .compact {
             Rectangle()
                 .frame(maxWidth: .infinity)
-                .frame(height: UIScreen.main.bounds.height/20)
+                .frame(height: getSafeAreaTop())
                 .foregroundStyle(.ultraThinMaterial)
                 .opacity(offset > -16 ? 0 : 1)
-                .animation(.linear, value: offset)
+                .animation(.easeIn, value: offset)
         }
     }
 }

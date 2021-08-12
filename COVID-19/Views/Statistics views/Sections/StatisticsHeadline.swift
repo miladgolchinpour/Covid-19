@@ -26,7 +26,7 @@ struct StatisticsHeadline: View {
             } 
         }
         .padding()
-        .padding(.top, UIApplication.shared.windows[0].safeAreaInsets.top+10)
+        .padding(.top, getSafeAreaTop() + 10)
     }
 }
 

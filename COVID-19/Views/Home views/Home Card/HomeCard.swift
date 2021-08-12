@@ -25,7 +25,7 @@ struct HomeCard: View {
                 }
                 .buttonStyle(.plain)
             }
-            .padding(.top, UIApplication.shared.windows[0].safeAreaInsets.top+40)
+            .padding(.top, getSafeAreaTop() + 40)
             
             HStack {
                 Text("Covid-19")

@@ -27,7 +27,7 @@ struct Under18: View {
                         .font(.headline)
                 }
             }
-            .padding(.top, UIApplication.shared.windows[0].safeAreaInsets.top)
+            .padding(.top, getSafeAreaTop())
         }
     }
 }

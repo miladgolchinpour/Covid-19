@@ -9,7 +9,7 @@
 import Foundation
 import SwiftUI
 
-// MARK: - URL loading system decoder
+// MARK: URL loading system decoder
 extension URLSession {
     func decode<T: Codable>(_ url: String, completion: @escaping (T) -> Void) {
         let url = URL(string: url)
@@ -36,7 +36,8 @@ extension URLSession {
         }.resume()
     }
 }
-// MARK: - New blue rounded button text style
+
+// MARK: New blue rounded button text style
 struct RoundedButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
@@ -68,7 +69,7 @@ extension View {
     }
 }
 
-// Create strings smaller for question result better view
+// MARK: Create strings smaller for question result better view
 extension String {
     /// Smaller String
     func smaller() -> String {
@@ -98,3 +99,24 @@ extension String {
         return string
     }
 }
+
+// MARK: GET safeAreaInsets TOP
+func getSafeAreaTop()->CGFloat{
+
+        let keyWindow = UIApplication.shared.connectedScenes
+
+            .filter({$0.activationState == .foregroundActive})
+
+            .map({$0 as? UIWindowScene})
+
+            .compactMap({$0})
+
+            .first?.windows
+
+            .filter({$0.isKeyWindow}).first
+
+        
+
+        return (keyWindow?.safeAreaInsets.top) ?? 0
+
+    }

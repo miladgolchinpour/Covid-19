@@ -19,7 +19,7 @@ struct InfoHeadline: View {
                 .font(.title3)
         }
         .foregroundColor(.white)
-        .padding(.top, UIApplication.shared.windows[0].safeAreaInsets.top+20)
+        .padding(.top, getSafeAreaTop() + 20)
         .padding(.leading, 20)
         .frame(maxWidth: .infinity, alignment: .leading)
     }

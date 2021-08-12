@@ -44,7 +44,7 @@ struct Calling911: View {
                 }
                 .buttonStyle(RoundedButtonStyle())
             }
-            .padding(.top, UIApplication.shared.windows[0].safeAreaInsets.top+30)
+            .padding(.top, getSafeAreaTop() + 30)
         }
     }
 }
