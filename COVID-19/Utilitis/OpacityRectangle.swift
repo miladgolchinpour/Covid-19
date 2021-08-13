@@ -18,7 +18,7 @@ struct OpacityRectangle: View {
             Rectangle()
                 .frame(maxWidth: .infinity)
                 .frame(height: getSafeAreaTop())
-                .foregroundStyle(.ultraThinMaterial)
+                .foregroundStyle(.bar)
                 .opacity(offset > -16 ? 0 : 1)
                 .animation(.easeIn, value: offset)
         }
